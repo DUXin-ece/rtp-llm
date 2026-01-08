@@ -1,5 +1,6 @@
 import functools
 import logging
+import grpc
 from typing import AsyncGenerator, Optional
 
 from rtp_llm.config.exceptions import ExceptionType, FtRuntimeException
